@@ -1,0 +1,360 @@
+{
+    "acumulados_por_dia": {
+        "Saturday": {
+            "num_def": 167,
+            "new_cases": 5769,
+            "num_hosp": 1317,
+            "num_uci": 160
+        },
+        "Sunday": {
+            "num_def": 168,
+            "new_cases": 3938,
+            "num_hosp": 1270,
+            "num_uci": 193
+        },
+        "Monday": {
+            "num_def": 194,
+            "new_cases": 5768,
+            "num_hosp": 1662,
+            "num_uci": 206
+        },
+        "Tuesday": {
+            "num_def": 157,
+            "new_cases": 5878,
+            "num_hosp": 1463,
+            "num_uci": 168
+        },
+        "Wednesday": {
+            "num_def": 168,
+            "new_cases": 5921,
+            "num_hosp": 1354,
+            "num_uci": 182
+        },
+        "Thursday": {
+            "num_def": 133,
+            "new_cases": 5705,
+            "num_hosp": 1288,
+            "num_uci": 140
+        },
+        "Friday": {
+            "num_def": 149,
+            "new_cases": 5644,
+            "num_hosp": 1319,
+            "num_uci": 150
+        }
+    },
+    "acumulados_por_provincia": {
+        "Albacete": {
+            "num_def": 2,
+            "new_cases": 0,
+            "num_hosp": 52,
+            "num_uci": 13
+        },
+        "Alicante/Alacant": {
+            "num_def": 5,
+            "new_cases": 1355,
+            "num_hosp": 50,
+            "num_uci": 6
+        },
+        "Almer\u00eda": {
+            "num_def": 27,
+            "new_cases": 0,
+            "num_hosp": 135,
+            "num_uci": 24
+        },
+        "Araba/\u00c1lava": {
+            "num_def": 15,
+            "new_cases": 1148,
+            "num_hosp": 8,
+            "num_uci": 1
+        },
+        "Asturias": {
+            "num_def": 19,
+            "new_cases": 1655,
+            "num_hosp": 187,
+            "num_uci": 25
+        },
+        "\u00c1vila": {
+            "num_def": 4,
+            "new_cases": 377,
+            "num_hosp": 32,
+            "num_uci": 10
+        },
+        "Badajoz": {
+            "num_def": 5,
+            "new_cases": 1267,
+            "num_hosp": 76,
+            "num_uci": 10
+        },
+        "Balears, Illes": {
+            "num_def": 5,
+            "new_cases": 0,
+            "num_hosp": 66,
+            "num_uci": 10
+        },
+        "Barcelona": {
+            "num_def": 79,
+            "new_cases": 0,
+            "num_hosp": 685,
+            "num_uci": 70
+        },
+        "Bizkaia": {
+            "num_def": 89,
+            "new_cases": 7047,
+            "num_hosp": 249,
+            "num_uci": 22
+        },
+        "Burgos": {
+            "num_def": 14,
+            "new_cases": 1694,
+            "num_hosp": 142,
+            "num_uci": 19
+        },
+        "C\u00e1ceres": {
+            "num_def": 6,
+            "new_cases": 585,
+            "num_hosp": 30,
+            "num_uci": 10
+        },
+        "C\u00e1diz": {
+            "num_def": 25,
+            "new_cases": 0,
+            "num_hosp": 167,
+            "num_uci": 20
+        },
+        "Cantabria": {
+            "num_def": 8,
+            "new_cases": 0,
+            "num_hosp": 194,
+            "num_uci": 43
+        },
+        "Castell\u00f3n/Castell\u00f3": {
+            "num_def": 5,
+            "new_cases": 628,
+            "num_hosp": 47,
+            "num_uci": 7
+        },
+        "Ceuta": {
+            "num_def": 9,
+            "new_cases": 27,
+            "num_hosp": 11,
+            "num_uci": 3
+        },
+        "Ciudad Real": {
+            "num_def": 8,
+            "new_cases": 0,
+            "num_hosp": 65,
+            "num_uci": 4
+        },
+        "C\u00f3rdoba": {
+            "num_def": 16,
+            "new_cases": 0,
+            "num_hosp": 176,
+            "num_uci": 31
+        },
+        "Coru\u00f1a, A": {
+            "num_def": 8,
+            "new_cases": 0,
+            "num_hosp": 159,
+            "num_uci": 32
+        },
+        "Cuenca": {
+            "num_def": 2,
+            "new_cases": 0,
+            "num_hosp": 24,
+            "num_uci": 3
+        },
+        "Gipuzkoa": {
+            "num_def": 49,
+            "new_cases": 4507,
+            "num_hosp": 2,
+            "num_uci": 0
+        },
+        "Girona": {
+            "num_def": 20,
+            "new_cases": 0,
+            "num_hosp": 38,
+            "num_uci": 3
+        },
+        "Granada": {
+            "num_def": 58,
+            "new_cases": 0,
+            "num_hosp": 508,
+            "num_uci": 83
+        },
+        "Guadalajara": {
+            "num_def": 8,
+            "new_cases": 0,
+            "num_hosp": 6,
+            "num_uci": 0
+        },
+        "Huelva": {
+            "num_def": 18,
+            "new_cases": 0,
+            "num_hosp": 170,
+            "num_uci": 11
+        },
+        "Huesca": {
+            "num_def": 5,
+            "new_cases": 726,
+            "num_hosp": 46,
+            "num_uci": 9
+        },
+        "Ja\u00e9n": {
+            "num_def": 21,
+            "new_cases": 0,
+            "num_hosp": 250,
+            "num_uci": 39
+        },
+        "Le\u00f3n": {
+            "num_def": 6,
+            "new_cases": 1307,
+            "num_hosp": 110,
+            "num_uci": 21
+        },
+        "Lleida": {
+            "num_def": 1,
+            "new_cases": 0,
+            "num_hosp": 23,
+            "num_uci": 2
+        },
+        "Lugo": {
+            "num_def": 3,
+            "new_cases": 0,
+            "num_hosp": 32,
+            "num_uci": 5
+        },
+        "Madrid": {
+            "num_def": 259,
+            "new_cases": 0,
+            "num_hosp": 2800,
+            "num_uci": 290
+        },
+        "M\u00e1laga": {
+            "num_def": 15,
+            "new_cases": 0,
+            "num_hosp": 285,
+            "num_uci": 31
+        },
+        "Melilla": {
+            "num_def": 8,
+            "new_cases": 0,
+            "num_hosp": 41,
+            "num_uci": 4
+        },
+        "Murcia": {
+            "num_def": 10,
+            "new_cases": 2025,
+            "num_hosp": 187,
+            "num_uci": 34
+        },
+        "Navarra": {
+            "num_def": 22,
+            "new_cases": 0,
+            "num_hosp": 146,
+            "num_uci": 13
+        },
+        "Ourense": {
+            "num_def": 2,
+            "new_cases": 0,
+            "num_hosp": 43,
+            "num_uci": 9
+        },
+        "Palencia": {
+            "num_def": 10,
+            "new_cases": 537,
+            "num_hosp": 67,
+            "num_uci": 6
+        },
+        "Palmas, Las": {
+            "num_def": 14,
+            "new_cases": 1622,
+            "num_hosp": 109,
+            "num_uci": 19
+        },
+        "Pontevedra": {
+            "num_def": 16,
+            "new_cases": 0,
+            "num_hosp": 170,
+            "num_uci": 20
+        },
+        "Rioja, La": {
+            "num_def": 10,
+            "new_cases": 0,
+            "num_hosp": 129,
+            "num_uci": 15
+        },
+        "Salamanca": {
+            "num_def": 4,
+            "new_cases": 661,
+            "num_hosp": 66,
+            "num_uci": 4
+        },
+        "Santa Cruz de Tenerife": {
+            "num_def": 15,
+            "new_cases": 2084,
+            "num_hosp": 135,
+            "num_uci": 23
+        },
+        "Segovia": {
+            "num_def": 3,
+            "new_cases": 522,
+            "num_hosp": 49,
+            "num_uci": 4
+        },
+        "Sevilla": {
+            "num_def": 54,
+            "new_cases": 0,
+            "num_hosp": 654,
+            "num_uci": 73
+        },
+        "Soria": {
+            "num_def": 6,
+            "new_cases": 201,
+            "num_hosp": 16,
+            "num_uci": 0
+        },
+        "Tarragona": {
+            "num_def": 16,
+            "new_cases": 0,
+            "num_hosp": 40,
+            "num_uci": 3
+        },
+        "Teruel": {
+            "num_def": 0,
+            "new_cases": 186,
+            "num_hosp": 21,
+            "num_uci": 3
+        },
+        "Toledo": {
+            "num_def": 31,
+            "new_cases": 0,
+            "num_hosp": 172,
+            "num_uci": 19
+        },
+        "Valencia/Val\u00e8ncia": {
+            "num_def": 13,
+            "new_cases": 1913,
+            "num_hosp": 141,
+            "num_uci": 12
+        },
+        "Valladolid": {
+            "num_def": 19,
+            "new_cases": 1513,
+            "num_hosp": 152,
+            "num_uci": 19
+        },
+        "Zamora": {
+            "num_def": 8,
+            "new_cases": 352,
+            "num_hosp": 42,
+            "num_uci": 5
+        },
+        "Zaragoza": {
+            "num_def": 61,
+            "new_cases": 4684,
+            "num_hosp": 468,
+            "num_uci": 57
+        }
+    }
+}
