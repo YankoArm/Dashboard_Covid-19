@@ -28,8 +28,34 @@ Este proyecto es una herramienta de visualización de datos desarrollada en Pyth
 
 1. Clona el repositorio:
 
-```bash
 git clone https://github.com/YankoArm/Dashboard_Covid-19.git
 cd Dashboard_Covid-19
 
+2. Instala los paquetes necesarios (por añadir requirements.txt):
+
+Copiar código
+pip install -r requirements.txt
+Ejecuta el programa:
+
+Copiar código
+python main.py
+Captura de pantalla (pendiente de agregar)
+
+Estado del proyecto
+Proyecto en fase funcional. Se planean mejoras como:
+
+Modularización del código
+
+Migración a una interfaz gráfica o web (Streamlit/Dash)
+
+Exportación de resultados
+
+Predicción simple de datos futuros con modelos ML
+
+Autor
+YankoArm
+Contacto: yankoarm@gmail.com
+
+Licencia
+Este proyecto está bajo la licencia MIT - ver el archivo LICENSE para más detalles.
 
