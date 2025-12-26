@@ -54,7 +54,7 @@ Predicción simple de datos futuros con modelos ML
 
 Autor
 YankoArm
-Contacto: yankoarm@gmail.com
+Contacto: yankomdz@gmail.com
 
 Licencia
 Este proyecto está bajo la licencia MIT - ver el archivo LICENSE para más detalles.
