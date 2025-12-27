@@ -34,5 +34,7 @@ El objetivo es explorar datos relacionados con la COVID-19 y representarlos grá
 ## ▶️ Ejecución
 
 ```bash
-git clone https://github.com/YankoArm/Dashboard_Covid-19.git && cd Dashboard_Covid-19 && pip install -r requirements.txt && python proyecto_final.py
-
+git clone https://github.com/YankoArm/Dashboard_Covid-19.git
+cd Dashboard_Covid-19
+pip install -r requirements.txt
+python proyecto_final.py
