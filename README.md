@@ -1,61 +1,38 @@
-# Dashboard COVID-19
+# Dashboard Científico COVID-19
 
-Este proyecto es una herramienta de visualización de datos desarrollada en Python que permite analizar la situación del COVID-19 en España. A través de un menú interactivo en la consola, el usuario puede seleccionar diferentes regiones y visualizar estadísticas como defunciones, ingresos hospitalarios y pacientes en UCI mediante gráficas.
-
----
-
-## Tecnologías utilizadas
-
-- **Python 3**
-- **Pandas** para manipulación de datos
-- **NumPy** para cálculos numéricos
-- **Matplotlib** para la visualización de datos
-- **Scikit-Learn** para operaciones estadísticas básicas
+Proyecto de análisis y visualización de datos desarrollado en Python.  
+El objetivo es explorar datos relacionados con la COVID-19 y representarlos gráficamente para facilitar su interpretación.
 
 ---
 
-## Funcionalidades
+## 📊 Funcionalidades
 
-- Carga automática de datos desde un archivo CSV.
-- Conversión y exportación de datos a formato JSON.
-- Visualización de estadísticas clave del COVID-19 por comunidad autónoma.
-- Interfaz por consola sencilla con menús para seleccionar la variable a mostrar.
-- Gráficas interactivas usando Matplotlib.
+- Carga y limpieza de datos desde archivos CSV
+- Análisis exploratorio de datos
+- Visualización de información mediante gráficos
+- Representación de tendencias y comparativas
 
 ---
 
-## Cómo usar este proyecto
+## 🛠 Tecnologías utilizadas
 
-1. Clona el repositorio:
+- Python
+- pandas
+- numpy
+- matplotlib
 
-git clone https://github.com/YankoArm/Dashboard_Covid-19.git
-cd Dashboard_Covid-19
+---
 
-2. Instala los paquetes necesarios (por añadir requirements.txt):
+## 📁 Estructura del proyecto
 
-Copiar código
-pip install -r requirements.txt
-Ejecuta el programa:
+- `data/` → conjunto de datos utilizados para el análisis  
+- `proyecto_final.py` → script principal del dashboard  
+- `README.md` → documentación del proyecto  
 
-Copiar código
-python main.py
-Captura de pantalla (pendiente de agregar)
+---
 
-Estado del proyecto
-Proyecto en fase funcional. Se planean mejoras como:
+## ▶️ Ejecución
 
-Modularización del código
-
-Migración a una interfaz gráfica o web (Streamlit/Dash)
-
-Exportación de resultados
-
-Predicción simple de datos futuros con modelos ML
-
-Autor
-YankoArm
-Contacto: yankomdz@gmail.com
-
-Licencia
-Este proyecto está bajo la licencia MIT - ver el archivo LICENSE para más detalles.
+```bash
+git clone https://github.com/YankoArm/Dashboard_Covid-19.git && cd Dashboard_Covid-19 && pip install -r requirements.txt && python proyecto_final.py
 
