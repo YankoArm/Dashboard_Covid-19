@@ -33,8 +33,11 @@ El objetivo es explorar datos relacionados con la COVID-19 y representarlos grá
 
 ## ▶️ Ejecución
 
+A continuación se muestra cómo clonar, instalar las dependencias y ejecutar este proyecto desde la terminal:
+
 ```bash
 git clone https://github.com/YankoArm/Dashboard_Covid-19.git
 cd Dashboard_Covid-19
 pip install -r requirements.txt
 python proyecto_final.py
+
