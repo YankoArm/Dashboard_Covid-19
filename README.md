@@ -30,6 +30,7 @@ Proyecto final de curso superior de programación con Python (Deusto)
 
 ## 📁 Estructura del proyecto
 
+```text
 Dashboard_Covid-19/
 │
 ├── data/
@@ -38,6 +39,8 @@ Dashboard_Covid-19/
 ├── proyecto_final.py
 ├── requirements.txt
 └── README.md 
+
+```
 
 ---
 
@@ -66,7 +69,8 @@ python proyecto_final.py
 
 ## 🎯 Objetivo del proyecto
 
-- Este proyecto ha sido desarrollado con fines formativos, con el objetivo de:
+Este proyecto ha sido desarrollado con fines formativos, con el objetivo de:
+
 - Aprender a trabajar con datos reales.
 - Utilizar librerías científicas en Python.
 - Comprender el flujo básico de un proyecto de análisis de datos.
