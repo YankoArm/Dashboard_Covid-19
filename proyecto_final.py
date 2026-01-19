@@ -50,7 +50,7 @@ acumulados_diasemana = {dia_semana: calcular_acumulados(grupo) for dia_semana, g
 acumulados_provincias = {provincia: calcular_acumulados(grupo) for provincia, grupo in grupo_provincias.items()}
 
 # Guardar datos agrupados en un archivo TXT en formato JSON
-with open('covid_data.json', 'w') as data_json:
+with open('data/covid_data.json', 'w') as data_json:
     json.dump({
         'acumulados_por_dia': acumulados_diasemana,
         'acumulados_por_provincia': acumulados_provincias
