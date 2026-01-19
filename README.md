@@ -11,19 +11,23 @@ Proyecto final de curso superior de programación con Python (Deusto)
 
 ## 📊 Funcionalidades
 
-- Carga de datos desde un archivo JSON
-- Procesamiento y limpieza de datos
-- Análisis exploratorio de la información
-- Visualización de datos mediante gráficos
-- Representación de tendencias temporales
+- Lee datos de CSV (RecursoProyecto3.csv)
+- Preparación de datos y tratamiento de fechas
+- Cálculo de totales agregados por provincia y por día de la semana
+- Exportación de resultados a formato JSON
+- Análisis exploratorio mediante consola
+- Visualización de datos mediante gráficos (barras y circulares)
+- Menú interactivo por consola
+  
+*(El proyecto es fácilmente migrable a pandas para mejorar escalabilidad y limpieza del código)*
 
 ---
 
 ## 🛠 Tecnologías utilizadas
 
-- Python
-- pandas
-- numpy
+- csv
+- json
+- datetime
 - matplotlib
 
 ---
