@@ -177,7 +177,7 @@ while True:
     5. Continuar al siguiente menú
     6 Salir""")
     
-    opcion = input("Elige una opción (1-5): ")
+    opcion = input("Elige una opción (1-6): ")
 
     # Convertir la opción a un número entero
     try:
