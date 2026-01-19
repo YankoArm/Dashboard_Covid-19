@@ -64,10 +64,7 @@ python proyecto_final.py
 
 ## 🧠 ¿Cómo funciona el dashboard?
 
-- Se cargan los datos desde el archivo covid_data.json.
-- Los datos se procesan y transforman con pandas.
-- Se realizan cálculos y análisis básicos.
-- Se generan gráficos utilizando matplotlib para visualizar la información.
+- Se agrupan los datos por provincia y por día de la semana para calcular totales agregados.
 
 ---
 
@@ -76,7 +73,7 @@ python proyecto_final.py
 Este proyecto ha sido desarrollado con fines formativos, con el objetivo de:
 
 - Aprender a trabajar con datos reales.
-- Utilizar librerías científicas en Python.
+- Utilizar librerías de análisis y visualización de datos en Python.
 - Comprender el flujo básico de un proyecto de análisis de datos.
 - Practicar la creación de visualizaciones claras y útiles.
 
