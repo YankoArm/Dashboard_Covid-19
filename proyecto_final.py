@@ -50,7 +50,7 @@ acumulados_diasemana = {dia_semana: calcular_acumulados(grupo) for dia_semana, g
 acumulados_provincias = {provincia: calcular_acumulados(grupo) for provincia, grupo in grupo_provincias.items()}
 
 # Guardar datos agrupados en un archivo TXT en formato JSON
-with open('data/covid_data.json', 'w') as data_json:
+with open('data/covid_data.json', 'w', encoding='utf-8', ensure_ascii=False) as data_json:
     json.dump({
         'acumulados_por_dia': acumulados_diasemana,
         'acumulados_por_provincia': acumulados_provincias
@@ -109,7 +109,7 @@ def nuevos_casos_semana():
     plt.ylabel('Número de nuevos casos')
     plt.show()
 
-def nuevos__casos_provincias():
+def nuevos_casos_provincias():
     provincias = list(acumulados_provincias.keys())
     nuevos_casos = [acumulados['new_cases'] for acumulados in acumulados_provincias.values()]
 
@@ -188,21 +188,21 @@ while True:
 
     # Ejecutar la opción seleccionada
     if opcion == 1:
+        print("Mostrando gráfica de Defunciones...")
         defunciones_semana()
         defunciones_provincias()
-        print("Mostrando gráfica de Defunciones...")
     elif opcion == 2:
-        nuevos_casos_semana()
-        nuevos__casos_provincias()
         print("Mostrando gráfica de Casos...")
+        nuevos_casos_semana()
+        nuevos_casos_provincias()
     elif opcion == 3:
+        print("Mostrando gráfica de Hospitalizados...")
         hospitalizados_semana()
         hospitalizados_provincia()
-        print("Mostrando gráfica de Hospitalizados...")
     elif opcion == 4:
+        print("Mostrando gráfica de UCI...")
         uci_semana()
         uci_provincia()
-        print("Mostrando gráfica de UCI...")
     elif opcion == 5:
         print("Continuando al siguiente menú...")
         break 
